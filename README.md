@@ -4,6 +4,8 @@ The following is a short overview over my usual linux setup, e.g packages and th
 
 ## Gnome interface
 
+![Home Screen](imgs/screen.png?raw=true "Dekstop")
+
 Usually kept with the dark theme and some gnome extensions.
 
 To install gnome extensions you need the manager installed:
@@ -16,6 +18,8 @@ Then the following packages I use is:
 - Dash to Panel - An extension that makes it possible to have the menu bar at the top of the screen.
 
 ## Terminal
+
+![Terminal](imgs/terminal.png?raw=true "Terminal")
 
 I use Zsh + Oh my Zsh + powerlevel10k as my current terminal setup. This can be setup in the following steps.
 
