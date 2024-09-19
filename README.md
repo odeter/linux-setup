@@ -20,7 +20,7 @@ Then the following packages I use is:
 I use Zsh + Oh my Zsh + powerlevel10k as my current terminal setup. This can be setup in the following steps.
 
 
-### Install Zsh
+### Zsh
 
 Install Zsh:
 ```bash
@@ -34,7 +34,7 @@ chsh -s $(which zsh)
 
 Then log out and in again, this should now have taken effect.
 
-### Install Oh my Zsh
+### Oh my Zsh
 
 Next we install Oh my Zsh:
 ```bash
@@ -46,9 +46,9 @@ Then install the following packages:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?ref=catalins.tech)
   A plugin giving auto suggestions as you write
   ```bash
-# To install
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-   ```
+  # To install
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  ```
   Then add `zsh-autosuggestions` to plugins in .zshrc
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting?ref=catalins.tech)
   A plugin for syntax highlighting
@@ -62,7 +62,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
   git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
   ```
   Then add `you-should-use` to plugins in .zshrc
-- [](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech)
+- [zsh-bat](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech)
   A plugin for reminding you of command aliases
   ```bash
   # First ensure bat is installed
@@ -72,7 +72,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
   ```
   Then add `zsh-bat` to plugins in .zshrc
 
-### Install powerlevel10k
+### Powerlevel10k
 
 Before powerlevel10k is to be install we setup terminal preferences:
 
