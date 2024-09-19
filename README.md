@@ -47,31 +47,29 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Then install the following packages:
 
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?ref=catalins.tech)
-  A plugin giving auto suggestions as you write
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions?ref=catalins.tech) - A plugin giving auto suggestions as you write
   ```bash
-  # To install
+  # Install via oh my zsh
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   ```
   Then add `zsh-autosuggestions` to plugins in .zshrc
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting?ref=catalins.tech)
-  A plugin for syntax highlighting
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting?ref=catalins.tech) - A plugin for syntax highlighting
   ```bash
+  # Install via oh my zsh
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
   ```
   Then add `zsh-syntax-highlighting` to plugins in .zshrc
-- [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech)
-  A plugin for reminding you of command aliases
+- [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech) - A plugin for reminding you of command aliases
   ```bash
+  # Install via oh my zsh
   git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
   ```
   Then add `you-should-use` to plugins in .zshrc
-- [zsh-bat](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech)
-  A plugin for reminding you of command aliases
+- [zsh-bat](https://github.com/MichaelAquilina/zsh-you-should-use?ref=catalins.tech) - A plugin pretty file printing in terminal (Replaces cat with bat)
   ```bash
   # First ensure bat is installed
   sudo apt-get install bat
-  # then install plugin
+  # then install plugin via oh my zsh
   git clone https://github.com/fdellwing/zsh-bat.git $ZSH_CUSTOM/plugins/zsh-bat
   ```
   Then add `zsh-bat` to plugins in .zshrc
