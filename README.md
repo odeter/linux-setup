@@ -113,3 +113,8 @@ List of other linux packages:
   ```bash
   sudo snap install nordpass
   ```
+- Emacs - Text editor
+  ```bash
+  sudo apt-get install emacs
+  ```
+  See my personal emacs setup [here](https://github.com/odeter/emacs)
